@@ -135,3 +135,6 @@ images:
 - 'gcr.io/$PROJECT_ID/restore_cache:${_VERSION}'
 - 'gcr.io/$PROJECT_ID/restore_cache:latest'
 tags: ['cloud-builders-community']
+
+options:
+    logging: CLOUD_LOGGING_ONLY
